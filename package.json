@@ -1,0 +1,22 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe App",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/safety-crew/JonasIO-Forkify-App.git"
+  },
+  "author": "Safety-Crew",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/safety-crew/JonasIO-Forkify-App/issues"
+  },
+  "homepage": "https://github.com/safety-crew/JonasIO-Forkify-App#readme",
+  "devDependencies": {
+    "parcel": "^2.16.0"
+  }
+}
