@@ -743,10 +743,12 @@ const renderSpinner = function(parentEl) {
     parentEl.insertAdjacentHTML('afterbegin', markup);
 };
 const showRecipe = async function() {
-    // 1) Loading Recipe
-    renderSpinner(recipeContainer);
     try {
-        const res = await fetch('https://forkify-api.jonas.io/api/v2/recipes/664c8f193e7aa067e94e8297');
+        const id = window.location.hash.slice(1);
+        if (!id) return;
+        // 1) Loading Recipe
+        renderSpinner(recipeContainer);
+        const res = await fetch(`https://forkify-api.jonas.io/api/v2/recipes/${id}`);
         const data = await res.json();
         if (!res.ok) throw new Error(`${data.message} (${res.status})`);
         console.log(res, data);
@@ -857,6 +859,12 @@ const showRecipe = async function() {
     }
 };
 showRecipe();
+// window.addEventListener('hashchange', showRecipe);
+// window.addEventListener('load', showRecipe);
+[
+    'hashchange',
+    'load'
+].forEach((ev)=>window.addEventListener(ev, showRecipe));
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","url:../img/icons.svg":"fd0vu","core-js/modules/web.immediate.js":"bzsBv","regenerator-runtime/runtime":"f6ot0"}],"jnFvT":[function(require,module,exports,__globalThis) {
 exports.interopDefault = function(a) {
