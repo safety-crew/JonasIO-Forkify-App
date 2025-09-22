@@ -21,7 +21,12 @@
     "parcel": "^2.16.0"
   },
   "dependencies": {
+    "babel": "^6.23.0",
+    "Babel": "^0.0.1",
     "core-js": "^3.45.1",
+    "fraction.js": "^5.3.4",
+    "fractional": "^1.0.0",
+    "fracty": "^1.0.12",
     "regenerator-runtime": "^0.14.1"
   }
 }
