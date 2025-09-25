@@ -1,9 +1,14 @@
 import * as model from './model.js';
-import recipeView from './Views/recipeView.js';
-import searchView from './Views/searchView.js';
+import RecipeView from './Views/recipeView.js';
+import ResultsView from './Views/resultsView.js';
+import SearchView from './Views/searchView.js';
 
 import 'core-js/stable';
 import 'regenerator-runtime/runtime';
+
+if (module.hot) {
+  module.hot.accept();
+}
 
 // NEW API URL (instead of the one shown in the video)
 // https://forkify-api.jonas.io
@@ -18,23 +23,25 @@ const controlRecipes = async function () {
       return;
     }
 
-    recipeView.renderSpinner();
+    RecipeView.renderSpinner();
 
     // 1) Loading Recipe
     await model.loadRecipe(id);
 
     // 2) Rendering Recipe
-    recipeView.render(model.state.recipe);
+    RecipeView.render(model.state.recipe);
   } catch (err) {
     console.log(err);
-    recipeView.renderError(`${err} 🔥`);
+    RecipeView.renderError(`${err} 🔥`);
   }
 };
 
 const controlSearchResults = async function () {
   try {
+    ResultsView.renderSpinner();
+
     // 1) Get search query
-    const query = searchView.getQuery();
+    const query = SearchView.getQuery();
 
     if (!query) return;
 
@@ -42,15 +49,15 @@ const controlSearchResults = async function () {
     await model.loadSearchResults(query);
 
     // 3) Render results
-    console.log(model.state.search.results);
+
+    ResultsView.render(model.state.search.results);
   } catch (err) {
     console.error(err);
   }
 };
-controlSearchResults();
 
 const init = function () {
-  recipeView.addHandlerRender(controlRecipes);
-  searchView.addHanderSearch(controlSearchResults);
+  RecipeView.addHandlerRender(controlRecipes);
+  SearchView.addHanderSearch(controlSearchResults);
 };
 init();
