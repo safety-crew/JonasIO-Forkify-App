@@ -4,9 +4,9 @@
 86/home/safetycrew/Projects/JonasIO-Forkify-App/dist/JonasIO-Forkify-App.62406edb.js.map1758367552128656888 0
 68/home/safetycrew/Projects/JonasIO-Forkify-App/dist/logo.726d37a8.png1758817430775732159 0
 61/home/safetycrew/Projects/JonasIO-Forkify-App/dist/index.html1758817430779732159 0
-86/home/safetycrew/Projects/JonasIO-Forkify-App/dist/JonasIO-Forkify-App.4a59a05f.js.map1758820720567725641 0
+86/home/safetycrew/Projects/JonasIO-Forkify-App/dist/JonasIO-Forkify-App.4a59a05f.js.map1758991961525131134 0
 86/home/safetycrew/Projects/JonasIO-Forkify-App/dist/JonasIO-Forkify-App.3464ddca.js.map1758367552136656888 0
-50/home/safetycrew/Projects/JonasIO-Forkify-App/dist1758820720571725642 1
+50/home/safetycrew/Projects/JonasIO-Forkify-App/dist1758991961525131134 1
 67/home/safetycrew/Projects/JonasIO-Forkify-App/node_modules/step/lib1758551480500994958 1
 78/home/safetycrew/Projects/JonasIO-Forkify-App/node_modules/step/test/fnTest.js1758551480504994958 0
 68/home/safetycrew/Projects/JonasIO-Forkify-App/node_modules/step/test1758551480504994958 1
@@ -4501,7 +4501,7 @@
 90/home/safetycrew/Projects/JonasIO-Forkify-App/node_modules/core-js/actual/date/set-year.js1758452048778377981 0
 91/home/safetycrew/Projects/JonasIO-Forkify-App/node_modules/core-js/es/typed-array/filter.js1758452048382377979 0
 75/home/safetycrew/Projects/JonasIO-Forkify-App/node_modules/semver/functions1758367406284656829 1
-82/home/safetycrew/Projects/JonasIO-Forkify-App/dist/JonasIO-Forkify-App.4a59a05f.js1758820720567725641 0
+82/home/safetycrew/Projects/JonasIO-Forkify-App/dist/JonasIO-Forkify-App.4a59a05f.js1758991961521131134 0
 79/home/safetycrew/Projects/JonasIO-Forkify-App/node_modules/msgpackr/index.d.cts1758367406196656821 0
 100/home/safetycrew/Projects/JonasIO-Forkify-App/node_modules/@parcel/optimizer-swc/src/SwcOptimizer.js1758367408796657068 0
 72/home/safetycrew/Projects/JonasIO-Forkify-App/node_modules/msgpackr/dist1758367406364656836 1
@@ -5207,7 +5207,7 @@
 90/home/safetycrew/Projects/JonasIO-Forkify-App/node_modules/caniuse-lite/data/regions/CL.js1758367406364656836 0
 84/home/safetycrew/Projects/JonasIO-Forkify-App/node_modules/dotenv-expand/lib/main.js1758367406104656812 0
 94/home/safetycrew/Projects/JonasIO-Forkify-App/node_modules/@parcel/transformer-babel/README.md1758367408348657024 0
-61/home/safetycrew/Projects/JonasIO-Forkify-App/src/js/model.js1758819113103722155 0
+61/home/safetycrew/Projects/JonasIO-Forkify-App/src/js/model.js1758962888178583398 0
 107/home/safetycrew/Projects/JonasIO-Forkify-App/node_modules/core-js/modules/esnext.observable.constructor.js1758452048346377978 0
 101/home/safetycrew/Projects/JonasIO-Forkify-App/node_modules/core-js/modules/esnext.set.is-subset-of.js1758452048350377978 0
 92/home/safetycrew/Projects/JonasIO-Forkify-App/node_modules/core-js/actual/string/iterator.js1758452048602377980 0
@@ -5628,7 +5628,7 @@
 97/home/safetycrew/Projects/JonasIO-Forkify-App/node_modules/core-js/es/string/virtual/ends-with.js1758452048226377978 0
 90/home/safetycrew/Projects/JonasIO-Forkify-App/node_modules/core-js/stable/url/can-parse.js1758452048150377977 0
 90/home/safetycrew/Projects/JonasIO-Forkify-App/node_modules/core-js/stable/date/set-year.js1758452048778377981 0
-66/home/safetycrew/Projects/JonasIO-Forkify-App/src/js/controller.js1758820720471725628 0
+66/home/safetycrew/Projects/JonasIO-Forkify-App/src/js/controller.js1758991538197129145 0
 101/home/safetycrew/Projects/JonasIO-Forkify-App/node_modules/core-js/actual/dom-collections/for-each.js1758452048426377979 0
 98/home/safetycrew/Projects/JonasIO-Forkify-App/node_modules/core-js/actual/dom-collections/index.js1758452048510377979 0
 84/home/safetycrew/Projects/JonasIO-Forkify-App/node_modules/readdirp/esm/package.json1758367550164656895 0
@@ -7787,7 +7787,7 @@
 91/home/safetycrew/Projects/JonasIO-Forkify-App/node_modules/source-map-js/lib/source-node.js1758367550168656895 0
 89/home/safetycrew/Projects/JonasIO-Forkify-App/node_modules/source-map-js/lib/array-set.js1758367550160656895 0
 81/home/safetycrew/Projects/JonasIO-Forkify-App/node_modules/dotenv-expand/tea.yaml1758367406168656818 0
-72/home/safetycrew/Projects/JonasIO-Forkify-App/src/js/Views/recipeView.js1758798876283390508 0
+72/home/safetycrew/Projects/JonasIO-Forkify-App/src/js/Views/recipeView.js1758991961445131135 0
 101/home/safetycrew/Projects/JonasIO-Forkify-App/node_modules/core-js/full/array/virtual/group-to-map.js1758452048486377979 0
 80/home/safetycrew/Projects/JonasIO-Forkify-App/node_modules/dotenv-expand/LICENSE1758367406068656809 0
 86/home/safetycrew/Projects/JonasIO-Forkify-App/node_modules/dotenv-expand/lib/main.d.ts1758367406160656817 0
