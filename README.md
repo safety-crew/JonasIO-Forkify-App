@@ -4,7 +4,7 @@ This is a recipe application built as part of a JavaScript course. It allows use
 
 **Live Demo:** [forkify-safetycrew.netlify.app](https://forkify-safetycrew.netlify.app)
 
-![Forkify Architecture]([https://github.com/saferty-crew/JonasIO-Forkify-App/blob/main/forkify-flowchart-part-3.png](https://github.com/safety-crew/JonasIO-Forkify-App/blob/main/forkify-flowchart-part-3.png))
+[https://github.com/saferty-crew/JonasIO-Forkify-App/blob/main/forkify-flowchart-part-3.png](https://github.com/safety-crew/JonasIO-Forkify-App/blob/main/forkify-flowchart-part-3.png)
 
 ## Features
 
